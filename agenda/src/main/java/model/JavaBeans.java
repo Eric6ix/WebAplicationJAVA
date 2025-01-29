@@ -3,18 +3,18 @@ package model;
 public class JavaBeans {
 	private String id;
 	private String nome;
-	private String phone;
+	private String fone;
 	private String email;
 	
 	public JavaBeans() {
 		super();
 	}
 	
-	public JavaBeans(String id, String nome, String phone, String email) {
+	public JavaBeans(String id, String nome, String fone, String email) {
 		super();
 		this.id = id;
 		this.nome = nome;
-		this.phone = phone;
+		this.fone = fone;
 		this.email = email;
 	}
 
@@ -30,11 +30,11 @@ public class JavaBeans {
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
-	public String getPhone() {
-		return phone;
+	public String getFone() {
+		return fone;
 	}
-	public void setPhone(String phone) {
-		this.phone = phone;
+	public void setFone(String fone) {
+		this.fone = fone;
 	}
 	public String getEmail() {
 		return email;
